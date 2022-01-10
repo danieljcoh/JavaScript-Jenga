@@ -8,10 +8,6 @@
     2. The u‘s and e‘s are extra long, so we must double them in our program.
 
 */
-
-
-
-
 let input = "turpentine and turtles";
 const vowels = ["a", "e", "i", "o", "u"];
 let resultArray = [];
