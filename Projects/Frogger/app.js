@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //moves cars
     function autoMoveCars(){
-        carsLeft.forEach(carsLeft => moveCarLeft(carLeft))
-        carsRight.forEach(carsRight => moveCarRight(carRight))
+        carLeft.forEach(carsLeft => moveCarLeft(carLeft))
+        carRight.forEach(carsRight => moveCarRight(carRight))
     }
 
     //move the car left on a time loop
